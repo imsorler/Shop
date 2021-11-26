@@ -7,8 +7,6 @@ import { Context } from '../index';
 const App = () => {
   const { user } = useContext(Context);
 
-  console.log(user);
-
   return (
     <Switch>
       {user.isAuth &&

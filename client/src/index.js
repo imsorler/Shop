@@ -4,7 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import UserStore from './store/UserStore';
 import DeviceStore from './store/DeviceStore';
 
-import App from './route/App';
+import App from './App';
+import './styles/index.css';
 
 export const Context = createContext(null);
 
